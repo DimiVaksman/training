@@ -1,0 +1,256 @@
+:root{
+    --premier-color: rgba(0,0,0,1);
+    --blau-color: rgba(24, 160, 251, 1);
+    --white-color: rgba(255,255,255,1);
+    --premier-font: 'Montserrat';
+    --Logo-font: 'Comfortaa';
+}
+
+/* !!!!!!!HEADER!!!!!! */
+
+.link {
+font-family: var(--premier-font);
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 1.2;
+letter-spacing: -0.015em;
+color: var(--blau-color);
+text-decoration: none;
+}
+
+.link:hover ,
+.link:focus{
+    color: var(--premier-color);
+}
+
+.list {
+    list-style-type: none;
+}
+
+/* button log in  */
+.button-login{
+font-family: var(--premier-font);
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 1.2;
+letter-spacing: -0.015em;
+color: var(--blau-color);
+background-color: var(--white-color);
+border: 1px solid #18A0FB;
+border-radius: 6px;
+cursor: pointer;
+
+}
+
+.button-login:hover ,
+.button-login:focus{
+    background-color: #F8F8F8;
+    border: 0.5px solid #18A0FB;}
+
+/* button register */
+.button-register{
+background: var(--blau-color);
+color: var(--white-color);
+border-radius: 6px;
+font-family: var(--premier-font);
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 1.2;
+letter-spacing: -0.015em;
+border: none;
+cursor: pointer;
+}
+
+.button-register:hover ,
+.button-register:focus{
+    background-color: #18B0FB;
+    border: 0.5px solid var(--blau-color);
+}
+
+ /* main */
+
+
+ .hero-tittle{
+font-family: var(--premier-font);
+font-style: normal;
+font-weight: 400;
+font-size: 56px;
+line-height: 1.42;
+text-align: center;
+letter-spacing: -0.015em;
+ }
+
+ .join-button{
+font-family: var(--premier-font);
+background-color: var(--blau-color);
+color: var(--white-color);
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 1.23;
+letter-spacing: -0.015em;
+border-radius: 6px;
+cursor: pointer;
+border: none;
+ }
+
+ .join-button:hover ,
+ .join-button:focus{
+    background-color: #18B0FB;
+    border: 0.5px solid var(--blau-color);
+ }
+
+
+
+ /* MAIN-TITTLE */
+
+
+ .main-tittle {
+font-family: var(--premier-font);
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 1.5;
+letter-spacing: -0.015em;
+color: var(--premier-color);
+ }
+
+ .tittle{
+font-family: var(--premier-font);
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 1.5;
+letter-spacing: -0.015em;
+color: var(--premier-color)
+ }
+
+
+ .text{
+font-family: var(--premier-font);
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.66;
+letter-spacing: -0.015em;
+color: rgba(0, 0, 0, 0.8);
+ }
+
+.tittle-rectangle{
+font-family: var(--premier-font);
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 1.5;
+letter-spacing: -0.015em;
+color: var(--premier-color);
+}
+
+.text-rectangle{
+font-family: var(--premier-font);
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.66;
+letter-spacing: -0.015em;
+color: rgba(0, 0, 0, 0.8);
+}
+ 
+.rectangle-two{
+    background: #F5F5F5;
+}
+
+.tittle-good-company{
+font-family: var(--premier-font);
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: -0.015em;
+color: var(--premier-color)
+}
+.text-good-company{
+font-family: var(--premier-font);
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 1.39;
+text-align: center;
+letter-spacing: -0.015em;
+color: var(--premier-color);
+
+}
+
+.text-contact-us{
+font-family: var(--premier-font);
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 1.39;
+letter-spacing: -0.015em;
+color: var(--premier-color)
+}
+
+.button-contact-us{
+    font-family: var(--premier-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.2;
+    letter-spacing: -0.015em;
+    color: var(--blau-color);
+    background-color: var(--white-color);
+    border: 1px solid #18A0FB;
+    border-radius: 6px;
+    cursor: pointer;
+    
+    }
+    
+    .button-contact-us:hover ,
+    .button-contact-us:focus{
+        background-color: #F8F8F8;
+        border: 0.5px solid #18A0FB;}
+
+
+
+        /* FOOTER */
+
+        .footer-link{
+font-family: var(--premier-font);
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 1.6;
+letter-spacing: -0.015em;
+color: var(--premier-color);
+text-decoration: none;
+        }
+        .footer-link:hover ,
+        .footer-link:focus{
+            color: var(--blau-color);
+        }
+
+        .copyr{
+font-family: var(--premier-font);
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 1.6;
+text-align: center;
+letter-spacing: -0.015em;
+color: var(--premier-color)
+        }
+
+
+
+ .container{
+            display: inline;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-right: 50px;
+            margin-left: 50px;
+        }
