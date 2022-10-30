@@ -1,0 +1,18 @@
+
+
+:root{
+    --general-font:"Open Sans" ;
+    --secandary-font: "Raleway";
+    --white-color: #FFFFFF;
+    
+}
+
+body{
+    font-family: var(--general-font);
+    font-size: 14px;
+    color: #303030;
+    background-color: var(--white-color);
+}
+
+/* ----------------------------HEADER- */
+
